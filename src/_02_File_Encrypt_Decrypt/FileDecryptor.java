@@ -5,7 +5,7 @@ public class FileDecryptor {
 	 * Decryption is the process of taking encoded or encrypted text or other data
 	 * and converting it back into text that you or the computer can read and understand.
 	 *
-	 * The shift cipher is decrypted by using using the key and shifting back up,
+	 * The shift cipher is decrypted by using the key and shifting back up,
 	 * at the end of our encryption example we had our alphabet as:
 	 *
 	 * e f g h i j k l m n o p q r s t u v w x y z a b c d

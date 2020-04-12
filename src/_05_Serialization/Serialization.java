@@ -1,10 +1,12 @@
 package _05_Serialization;
 
+/*
 import org.junit.Test;
 
 import java.io.*;
 
 import static org.junit.Assert.assertEquals;
+*/
 
 /*
  * Serialization is the process of converting an object into a stream of bytes
@@ -17,6 +19,8 @@ import static org.junit.Assert.assertEquals;
  *
  * Challenge: Complete the SaveData class so that the test passes.
  */
+
+/*
 public class Serialization {
 	private static final String DATA_FILE = "src/_04_Serialization/saved.dat";
 
@@ -34,11 +38,14 @@ public class Serialization {
 		assertEquals(name, loadedData.name);
 		assertEquals(age, loadedData.age);
 	}
+*/
 
 	/*
 	 * One simple way to save a serializable object to a file is using a FileOutputStream
 	 * and ObjectOutputStream.
 	 */
+
+/*
 	private static void save(SaveData data) {
 		try (FileOutputStream fos = new FileOutputStream(new File(DATA_FILE)); ObjectOutputStream oos = new ObjectOutputStream(fos)) {
 			oos.writeObject(data);
@@ -59,5 +66,7 @@ public class Serialization {
 			e.printStackTrace();
 			return null;
 		}
-	}
+	}	
 }
+
+*/
